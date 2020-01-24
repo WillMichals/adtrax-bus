@@ -1,0 +1,55 @@
+AdTrax Bus
+
+author creator -1 Will M
+author creator -1 Jasper H
+author support -1 RoR Community
+
+globals
+1000, 0.0, tracks/semi
+
+forwardcommands
+
+engine
+;min rpm, max rpm, torque, differential ratio, rear gear, first, second, third, fourth, fifth, sixth
+1000.0, 2100.0, 6000.0, 4.10, 15.00,  18.00, 11.50, 6.00, 3.75, 2.75, 2.00, 1.50, 0.90, -1.0
+
+nodes
+
+beams
+
+cameras
+
+cinecam
+
+wheels
+
+0.4, 0.3, 12, 20, 20, 23, 1, 1, 3, 150.0, 400000.0, 3000.0, tracks/wheelface tracks/wheelband1
+0.4, 0.3, 12, 23, 22, -25, 1, 1, 5, 150.0, 400000.0, 3000.0, tracks/wheelface tracks/wheelband1
+0.4, 0.3, 12, 29, 28, 9999, 1, 1, 18, 150.0, 400000.0, 3000.0, tracks/wheelface tracks/wheelband1
+0.4, 0.3, 12, 26, 27, 9999, 1, 1, 5, 150.0, 400000.0, 3000.0, tracks/wheelface tracks/wheelband1
+
+shocks
+
+hydros
+
+commands
+
+rotators
+
+ropes
+
+ties
+
+fixes
+
+contacters
+
+ropables
+
+flares
+
+props
+
+exhausts
+
+end
